@@ -1,0 +1,5 @@
+Кодовые слова: 
+{address} 
+
+add [DurationTimer(В минутах)] [Title] [{address} Text]
+add 10 Какой-то заголовок address Какой-то адресс

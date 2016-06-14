@@ -1,0 +1,25 @@
+1. Entity Framwork
+Оптимизация EF при сохранении большого количества записей http://stackoverflow.com/questions/5940225/fastest-way-of-inserting-in-entity-framework
+
+2. SignalR - обучалки
+https://github.com/SignalR/SignalR/wiki/PersistentConnection
+http://www.asp.net/signalr/overview/guide-to-the-api/hubs-api-guide-server
+http://www.asp.net/signalr/overview/guide-to-the-api/handling-connection-lifetime-events 
+http://www.asp.net/signalr/overview/guide-to-the-api/hubs-api-guide-net-client
+http://www.asp.net/signalr/overview/deployment/tutorial-signalr-self-host
+http://www.asp.net/signalr/overview/guide-to-the-api
+http://www.asp.net/signalr/overview/guide-to-the-api/working-with-groups
+
+3. Увязать SQL Server с SignalR http://www.asp.net/signalr/overview/performance/scaleout-with-sql-server
+
+4. Dependency Injection in ASP.NET Web API 2 http://www.asp.net/web-api/overview/advanced/dependency-injection
+
+5. 
+Рефлексия (отражение, reflection) в C# http://blog.rc21net.ru/%D1%80%D0%B5%D1%84%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D1%8F-%D0%BE%D1%82%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-reflection-%D0%B2-c-sharp/
+Инъекция кода в .NET CLR: изменение IL-кода во время выполнения программы https://habrahabr.ru/post/154419/
+Формирование параметров метода [Type.GetMethod] https://msdn.microsoft.com/ru-ru/library/6hy0h0z1(v=vs.110).aspx
+Сформировать .exe из программы [TypeBuilder.GetMethod] https://msdn.microsoft.com/ru-ru/library/ms145835(v=vs.110).aspx
+
+
+6. Обзор паттернов
+http://professorweb.ru/my/WPF/documents_WPF/level36/36_1.php

@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Solution Items -", "1 - Solution Items -", "{DAA5B554-4A20-4EEE-937C-1E7E5C07FCE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Docs -", "0 - Docs -", "{8B57A81C-7B3E-4C07-8636-FEAD66B5D45F}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Docs\-00-EF-Commands.txt = SolutionItems\Docs\-00-EF-Commands.txt
+		SolutionItems\Docs\-01-Добавить-Потом.txt = SolutionItems\Docs\-01-Добавить-Потом.txt
+		SolutionItems\Docs\-01-Добавить-Сейчас.txt = SolutionItems\Docs\-01-Добавить-Сейчас.txt
+		SolutionItems\Docs\-01-Командный центр.txt = SolutionItems\Docs\-01-Командный центр.txt
+		SolutionItems\Docs\-03-ChangeLog.txt = SolutionItems\Docs\-03-ChangeLog.txt
+		SolutionItems\Docs\-04-Демо режим.txt = SolutionItems\Docs\-04-Демо режим.txt
+		SolutionItems\Docs\-05-Роли.txt = SolutionItems\Docs\-05-Роли.txt
+		SolutionItems\Docs\-11-Links.Обучалки.txt = SolutionItems\Docs\-11-Links.Обучалки.txt
+		SolutionItems\Docs\-11-Links.Полезные Материалы.txt = SolutionItems\Docs\-11-Links.Полезные Материалы.txt
+		SolutionItems\Docs\-99-quick start-InstallApp.txt = SolutionItems\Docs\-99-quick start-InstallApp.txt
+		SolutionItems\Docs\-99-quick start-Packages.txt = SolutionItems\Docs\-99-quick start-Packages.txt
+		SolutionItems\Docs\-99-SignalR Info.txt = SolutionItems\Docs\-99-SignalR Info.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Mvvm -", "2 - Mvvm -", "{6E39094A-A8A6-4EAB-B113-C54CD0A47CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Быстрый доступ", "0 - Быстрый доступ", "{A39BF299-9B8B-45A4-B672-BA75C36B718D}"
+	ProjectSection(SolutionItems) = preProject
+		PeEm.API\Services\ApiService.cs = PeEm.API\Services\ApiService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assembly", "Assembly", "{025080EE-48F4-40B4-8EDA-0F16F697F8F6}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\AssemblySharedInfo.cs = SolutionItems\AssemblySharedInfo.cs
+		SolutionItems\AssemblyVersionInfo.cs = SolutionItems\AssemblyVersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configs", "Configs", "{F85ED076-BE5C-4415-9743-237E9B0ACEEE}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\PeEm.Google.json = SolutionItems\PeEm.Google.json
+		SolutionItems\PeEm.json = SolutionItems\PeEm.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm.Applications", "System.Mvvm.Applications\System.Mvvm.Applications.csproj", "{61B8AE2D-6215-418B-896F-3DBB144EEFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm.Base", "System.Mvvm.Base\System.Mvvm.Base.csproj", "{F7F4E576-04CA-4125-BB78-9C6E2A985844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm.Services", "System.Mvvm.Services\System.Mvvm.Services.csproj", "{4D178AEE-5102-42D7-984E-B36D79A24B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Debug|x64.ActiveCfg = Debug|x64
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Debug|x64.Build.0 = Debug|x64
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Release|x64.ActiveCfg = Release|x64
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1}.Release|x64.Build.0 = Release|x64
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Debug|x64.ActiveCfg = Debug|x64
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Debug|x64.Build.0 = Debug|x64
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Release|x64.ActiveCfg = Release|x64
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844}.Release|x64.Build.0 = Release|x64
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Debug|x64.ActiveCfg = Debug|x64
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Debug|x64.Build.0 = Debug|x64
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Release|x64.ActiveCfg = Release|x64
+		{4D178AEE-5102-42D7-984E-B36D79A24B69}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{025080EE-48F4-40B4-8EDA-0F16F697F8F6} = {DAA5B554-4A20-4EEE-937C-1E7E5C07FCE4}
+		{F85ED076-BE5C-4415-9743-237E9B0ACEEE} = {DAA5B554-4A20-4EEE-937C-1E7E5C07FCE4}
+		{61B8AE2D-6215-418B-896F-3DBB144EEFA1} = {6E39094A-A8A6-4EAB-B113-C54CD0A47CC5}
+		{F7F4E576-04CA-4125-BB78-9C6E2A985844} = {6E39094A-A8A6-4EAB-B113-C54CD0A47CC5}
+		{4D178AEE-5102-42D7-984E-B36D79A24B69} = {6E39094A-A8A6-4EAB-B113-C54CD0A47CC5}
+	EndGlobalSection
+EndGlobal

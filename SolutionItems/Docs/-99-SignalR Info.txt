@@ -1,0 +1,23 @@
+// разослать всем
+ Clients.All.send(message);
+
+ // всем, кроме меня
+ Clients.Others.send(message);
+
+// всем, кроме определённого идентификатора соединения
+Clients.AllExcept(Context.ConnectionId).send(message);
+
+// тому, кто прислал
+Clients.Caller.send(message);
+
+// отослать всем в группе "foo"
+Clients.Group("foo").send(message);
+
+// отослать всем из группы "foo", кроме того кто прислал
+Clients.OthersInGroup("foo").send(message);
+
+// отослать всем из группы "foo", кроме определённого идентификатора соединения
+Clients.Group("foo", Context.ConnectionId).send(message);
+
+// отослать клиенту с определённым идентификатором соединения
+Clients.Client(Context.ConnectionId).send(message);

@@ -1,0 +1,12 @@
+1. Необходимо установить на компьютере клиента
+  - .NET Framework 4.6 https://www.microsoft.com/ru-RU/download/details.aspx?id=44927
+  - SQL Server 2014 Express LocalDB https://www.microsoft.com/ru-ru/download/details.aspx?id=42299
+  посмотреть текущую установленную версию можно
+   >> sqllocaldb info - должна быть MSSQLLocalDB
+
+
+может быть, если потребуется
+     SQL Server http://www.microsoft.com/ru-ru/server-cloud/products/sql-server-editions/overview.aspx
+     SQL Server Express http://care.dlservice.microsoft.com/dl/download/4/E/3/4E38FD5A-8859-446F-8C58-9FC70FE82BB1/Express%2032BIT/SQLEXPR_x86_RUS.exe
+     Веб-серверы в Visual Studio для веб-проектов ASP.NET https://msdn.microsoft.com/ru-ru/library/58wxa9w5(v=vs.120).aspx
+

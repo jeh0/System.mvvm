@@ -1,0 +1,27 @@
+-------- Множественный контекст ------- 
+примеры команд http://www.dotnet-tricks.com/Tutorial/entityframework/2VOa140214-Entity-Framework-6-Code-First-Migrations-with-Multiple-Data-Contexts.html
+
+
+
+-------- Migrations_Context_Ta ------- 
+Update-Database -Verbose -Force -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API -configuration PeEm.Migrations_Ta.Configuration
+Add-Migration InitDb -Force –Verbose -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API -configuration PeEm.Migrations_Ta.Configuration
+Enable-Migrations -EnableAutomaticMigrations -Verbose -Force -ProjectName PeEm.Applications.API -ContextTypeName PMdb_Ta -MigrationsDirectory:Migrations_Ta
+
+
+
+-------- Context_Db_Command ------- 
+Update-Database -Verbose -Force -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API -configuration PeEm.Migrations_Co.Configuration
+Add-Migration InitDb -Force –Verbose -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API -configuration PeEm.Migrations_Co.Configuration
+Enable-Migrations -EnableAutomaticMigrations -Verbose -Force -ProjectName PeEm.Applications.API -ContextTypeName PMdb_Co -MigrationsDirectory:Migrations_Co
+
+
+
+
+-------------- Один контекст -----------------
+Update-Database -Verbose -Force -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API
+Add-Migration –Verbose -Force InitDb -ProjectName PeEm.Applications.API -StartUpProjectName PeEm.Applications.API
+Enable-Migrations -EnableAutomaticMigrations -Verbose -Force -ProjectName PeEm.Applications.API
+
+-------------- EntityFramework 
+Install-Package EntityFramework –Verbose -ProjectName PeEm.Applications.API

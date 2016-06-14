@@ -1,0 +1,6 @@
+
+https://github.com/SignalR/SignalR/wiki
+
+
+SignalR в многосерверной конфигурации или по умному Ч Scaleout
+http://habrahabr.ru/company/microsoft/blog/108929/

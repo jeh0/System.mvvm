@@ -1,0 +1,49 @@
+
+-- для Сервера ------> Общий -
+>> Install-package EntityFramework -verbose
+
+-- для Сервера ------> SignalR -
+>> Install-Package Microsoft.AspNet.SignalR.SelfHost -verbose -ProjectName "PeEm.Common.SignalR.Server"
+
+!->> Install-package Microsoft.AspNet.SignalR -verbose
+!->> Install-Package Microsoft.Owin.Cors -verbose -ProjectName "PeEm.Common.SignalR.Server"
+
+-- для Клиента -------
+>> Install-Package Microsoft.AspNet.SignalR.Client -verbose -ProjectName "PeEm.Common.SignalR.Client"
+
+-- для Микрофона и звука
+>> Install-package NAudio -verbose -ProjectName "PeEm.Audio"
+>> Install-package Newtonsoft.Json -verbose -ProjectName "PeEm.Audio"
+>> Install-package Newtonsoft.Json -verbose -ProjectName "PeEm.Google" 
+
+
+--- PowerShell ---
+>> Install-Package System.Management.Automation
+
+
+>> Install-package Newtonsoft.Json -verbose -ProjectName "PeEm.DAL" 
+
+-- Для ужатого сервера ---
+>> Install-Package Microsoft.Owin.Cors
+>> ?? Install-Package ServiceProcess.Helpers
+-- |/_\| ---
+>> Install-Package Microsoft.AspNet.SignalR.SelfHost
+>> Install-Package Microsoft.AspNet.SignalR.Client
+
+Microsoft.AspNet.Cors
+Microsoft.AspNet.SignalR.Core
+Microsoft.AspNet.SignalR.SelfHost
+Microsoft.Owin
+Microsoft.Owin.Cors
+Microsoft.Owin.Diagnostics
+Microsoft.Owin.Host.HttpListener
+Microsoft.Owin.Hosting
+Microsoft.Owin.Security
+Microsoft.Owin.SelfHost
+Newtonsoft.Json
+Owin
+
+// Microsoft.AspNet.WebApi.Cors // StartUp.cs => Configuration() => _app.UseCors(CorsOptions.AllowAll);
+
+--- для Клиента -----
+Microsoft.AspNet.SignalR.Client

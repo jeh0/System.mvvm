@@ -1,0 +1,1 @@
+I:\9m\-Sinta\-nuget\NuGet.exe pack SignalR.StockTicker\SignalR.StockTicker\Properties\SignalR.StockTicker.nuspec
